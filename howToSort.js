@@ -60,7 +60,7 @@ function twoSmallest(arr) {
     
     let finalArr = []
     
-    if (arr.length < 3) {
+    if (arr.length < 2) {
         return undefined;
     }
 
@@ -86,22 +86,4 @@ function twoSmallest(arr) {
 }
 
 console.log(twoSmallest(arr1))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
